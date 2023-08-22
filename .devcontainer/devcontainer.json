@@ -1,0 +1,23 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+      	"CyanChanges/k2srv-loader": {
+          "permissions": {
+            "contents": "write",
+            "pull_requests": "read"
+          }
+        },
+        "CyanChanges/keine": {
+          "permissions": {
+            "contents": "write",
+            "pull_requests": "read"
+          }
+        }
+      }
+    }
+  }
+}
