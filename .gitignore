@@ -1,7 +1,6 @@
 lib
 dist
 data
-external
 
 yarn.lock
 package-lock.json
