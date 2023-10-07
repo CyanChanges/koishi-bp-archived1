@@ -1,3 +1,4 @@
 [submodule "external/keine"]
 	path = external/keine
 	url = https://github.com/CyanChanges/keine
+	branch = master
