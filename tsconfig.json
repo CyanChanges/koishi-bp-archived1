@@ -57,6 +57,8 @@
       // as it bypasses a bug in tsconfig-path/register.
       // See: https://github.com/dividab/tsconfig-paths/issues/209
       "*": ["packages/*/src"],
+
+      "@k2u/*": ["external/k2u/packages/*/src"]
     },
   },
   "files": [],

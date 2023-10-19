@@ -5,3 +5,8 @@
 [submodule "external/k2s"]
 	path = external/k2s
 	url = https://github.com/CyanChanges/k2srv-loader
+[submodule "./external/k2u"]
+	url = https://github.com/CyanChanges/k2u.git
+[submodule "external/k2u"]
+	path = external/k2u
+	url = https://github.com/CyanChanges/k2u.git
