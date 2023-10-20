@@ -47,6 +47,6 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-    '@k2u/keine': {}
     k2s: {}
     '@k2u/protect:nc5d68': {}
+    '@k2u/keine': {}
