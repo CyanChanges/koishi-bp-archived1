@@ -47,6 +47,12 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-    k2s: {}
-    '@k2u/protect:nc5d68': {}
-    '@k2u/keine': {}
+    group:default:
+      ~k2s: {}
+      breaks-koishi:nw9fdx: {}
+    group:k2u:
+      '@k2u/protect:nc5d68': {}
+      '@k2u/keine': {}
+    group:extra:
+      ~prog-issues-test: {}
+    test:vukc65: {}
